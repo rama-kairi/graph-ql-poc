@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "CommonJS",
+    "declaration": true,
+    "lib": [
+      "es2020",
+      "ES2021.String"
+    ],
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2020",
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+    },
+    "resolveJsonModule": true,
+  },
+  "include": [
+    "test/**/*",
+    "src/**/*"
+  ],
+  "strict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "noUncheckedIndexedAccess": true,
+  "noPropertyAccessFromIndexSignature": true,
+}

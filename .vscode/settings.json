@@ -1,0 +1,55 @@
+{
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "search.exclude": {
+    "package-lock.json": true
+  },
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.codeActionsOnSave": [
+    "source.organizeImports",
+    "source.addMissingImports",
+    "source.fixAll.eslint"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
+  "typescript.enablePromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version
+  // Multiple language settings for json and jsonc files
+  "[json][jsonc][yaml][postcss][css][scss]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.ignorePath": ".gitignore",
+  "cSpell.words": [
+    "cardcontainer",
+    "clsx",
+    "commitlint",
+    "cssnano",
+    "datetime",
+    "expart",
+    "lerp",
+    "mantine",
+    "nexg",
+    "nexgtech",
+    "offboarded",
+    "onboarded",
+    "postbuild",
+    "Reachout",
+    "recruitments",
+    "signin",
+    "Signup",
+    "tabler",
+    "tanstack",
+    "Telehealth"
+  ], // Don't run prettier for files listed in .gitignore
+  // postcss config
+  "cssVariables.lookupFiles": [
+    "**/*.css",
+    "**/*.scss",
+    "**/*.sass",
+    "**/*.less",
+    "node_modules/@mantine/core/styles.css"
+  ],
+  "css.validate": true
+}
